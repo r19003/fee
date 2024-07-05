@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightblue">
+    <center>
+        <h1><u> APPLICATION FORM</u></h1>
+    </center>
+    <form>
+        <!--email checked-->
+    <input type="checkbox" checked><b>Email:</b><input type="text" size="40px" placeholder="email" required><br><br>
+     <!--name-->
+<h1><b>Name:</b></h1>
+<b>first name:</b><input type="text" placeholder="first name" size="40px" required>
+<b>middle name:</b><input type="text" size="40px" placeholder="middle name">
+<b>last name:</b><input type="text" size="40px" placeholder="last name"><br><br>
+ <!--fathers name-->
+<h1><b>Fathers Name:</b></h1>
+<b>first name:</b><input type="text" size="40px" placeholder="first name">
+<b>middle name:</b><input type="text" size="40px" placeholder="middle name">
+<b>last name:</b><input type="text" size="40px"placeholder="last name"><br><br>
+<!--mothers name-->
+<h1><b> Mothers Name:</b></h1>
+<b>first name:</b><input type="text" size="40px"placeholder="first name">
+<b>middle name:</b><input type="text" size="40px" placeholder="middle name">
+<b>last name:</b><input type="text" size="40px" placeholder="last name"><br><br>
+<!--gender-->
+<h1><b>Gender:</b></h1>
+<label for="male">
+    <input type="radio" id="male" name="gender" value="male"> Male
+</label>
+<label for="female">
+    <input type="radio" id="female" name="gender" value="female"> Female
+</label>
+<label for="other">
+    <input type="radio" id="other" name="gender" value="other"> Other
+</label>
+<br><br>
+<!--address-->
+<h1><b>Address:</b></h1>
+<b>line 1:</b><input type="text" size="40px" ><br><br>
+<b>line 2:</b><input type="text" size="40px"><br><br>
+<b>line 3:</b><input type="text" size="40px"><br><br>
+<b>pincode:</b><input type="number" size="38px" required placeholder="pincode">
+<b>country:</b><input type="text" size="40px" placeholder="country" required><br><br>
+<h1><b</h1>
+<!--phoneno-->
+<label for="dropdown">phoneno:</label>
+    <select id="dropdown" name="dropdown">
+        <option value="option1">options</option>
+        <option value="option2" selected>+91</option>
+        <option value="option3">+1</option>
+        <option value="option4">+81</option>
+        <option value="option5">+23</option>
+        <option value="option6">+34</option>
+        <option value="option7">+76</option>
+        <option value="option8">+95</option>
+    </select><input type="number"size="40px" maxlength="10" placeholder="xxxxxxxxxx">
+    <br><br>
+    <!--country-->
+    <label for="dropdown">Country:
+    </label>
+    <select id="dropdown" name="dropdown">
+        <option value="option1">options</option>
+        <option value="option2" selected>INDIA</option>
+        <option value="option3">CANADA</option>
+        <option value="option4">USA</option>
+        <option value="option5">NEPAL</option>
+        <option value="option6">SPAIN</option>
+        <option value="option7">ENGLAND</option>
+        <option value="option8">SOUTH KOREA</option>
+    </select>
+    <br><br>
+    <!--coverletter-->
+    <label for="Coverletter">Coverletter</label><br>
+    <textarea id="Coverletter"name="textareaInput" rows="10" cols="100"></textarea><br><br>
+    <!--file upload-->
+    <label for="fileInput">Upload resume:</label>
+        <input type="file" id="fileInput" name="fileInput"><br><br></b>
+       <!--button-->
+        <button value="submit">submit</button>
+</form>
+</body>
+</html>
